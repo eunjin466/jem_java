@@ -87,9 +87,19 @@ public class test {
 	boolean isApple = true; // 참, 거짓 값을 가지는 타입
 	System.out.println(isApple);
 	
+	int a =2;
 	
+	int 한개피단축 =2;
+	int 일년 =365;
+	int 흡연기간 =20;
+	int 하루담배 = 5;  // 하루에 5개피씩 매일 흡연
 	
-	
+	int 단축수명 = 하루담배 * 한개피단축 * 일년 * 흡연기간;
+	int 단축수명시간 = 단축수명/60;
+	int 단축수명일 = 단축수명시간/24;
+	System.out.println("총 단축시간(분):" + 단축수명);
+	System.out.println(단축수명시간);
+	System.out.println(단축수명일);
 	
 	
 	}
