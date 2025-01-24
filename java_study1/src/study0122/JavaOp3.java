@@ -30,6 +30,7 @@ public class JavaOp3 {
 		System.out.println( 'a' > 'b' );
 		// 비교연산자는 비교하는 2개의 값이 같은 자료형인지 판별
 		
+		
 		System.out.println( 10 != 5);
 		
 		//놀이공원에서 바이킹을 타는데 키가 140이상만 탈 수 있다.
