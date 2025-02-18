@@ -61,7 +61,7 @@ public class JavaArray4 {
 				
 	}for(int n=0; n<harvest.length; n++) {
 		avg = harvest[n] * sum;
-	} if()
+	} 
 	
 	
 	
