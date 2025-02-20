@@ -5,6 +5,9 @@ public class Product {
 	String pdBrand;
 	int amount;
 	
+	Product(){
+		
+	}
 	Product(String pdName, int amount){
 		this.pdName = pdName;
 		this.amount = amount;
