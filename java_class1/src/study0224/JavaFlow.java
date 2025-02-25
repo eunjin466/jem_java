@@ -2,7 +2,7 @@ package study0224;
 
 public class JavaFlow {
 
-	static void total (game g1, Game g2, Game g3) {
+	static void total (game g1, game g2, game g3) {
 		int tot = g1.cnt + g2.cnt + g3.cnt;
 		System.out.println("총합: " + tot);
 	}
@@ -11,7 +11,7 @@ public class JavaFlow {
 		Game game1 = new Game();
 		Game game2 = new Game("문명",435);
 		Game game3 = new Game("사이버펑크",3412);	
-		total(game1,game2,game3)
+		total(game1,game2,game3);
 	}
 
 }
