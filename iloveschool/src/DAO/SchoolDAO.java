@@ -36,11 +36,10 @@ public class SchoolDAO extends DBconnect{
 		
 		String sql = "insert into my_school(member_id, school_id) values ('" +id + "' ," +schoolNum+" )";
 		try {
+			st = conn.createStatement();
 			st.executeUpdate(sql);
-			
-			
 		}catch(SQLException e){
-			System.out.println("학교 번호 저장 안됨");
+			System.out.println("내 학교 등록 실패");
 			e.printStackTrace();
 			
 		}

@@ -11,4 +11,16 @@ public class shoppingMall {
 		
 	}
 
+
+	public void cartIn(String name) {
+		System.out.println("장바구니에 담기");
+		
+	}
+
+
+	public void cartOut(String name) {
+		System.out.println("장바구니에서 삭제하기");
+		
+	}
+
 }

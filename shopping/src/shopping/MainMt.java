@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MainMt {
 		private static Scanner sc = new Scanner(System.in);
-		private static int Menu(Cart cart, String name,int price) {
+		private static String Menu(shoppingMall shoppingMall, String name,int price) {
 			System.out.println("\n========= 메뉴 ==========\n");
 			System.out.println("1. 상품 담기");
 			System.out.println("2. 상품삭제하기");
@@ -15,18 +15,18 @@ public class MainMt {
 			return num;
 			
 			if( num == 1) {
-				Cart.cartIn(name);
+				shoppingMall.cartIn(name);
 			}else if( num == 2) {
-				Cart.cartOut(name);
+				shoppingMall.cartOut(name);
 			}else if( num == 3) {
 				shoppingMall.cartSum(price);
 			}else {
-				return 0;
+				return null;
 			}
-			return Menu(cart,name,price);
+			return Menu(shoppingMall,name,price);
 		}
 		
-		public static void main(String[] args) {
+		public static void main(String[] args) {`
 				
 			Product p1 = new Product();
 			p1.name = "트위드 자켓";
